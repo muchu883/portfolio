@@ -1,0 +1,397 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.links{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://image.winudf.com/v2/image1/Y29tLmhhbmRldnN0ZC5kYXJrLmJsYWNrd2FsbHBhcGVyc19zY3JlZW5fMF8xNjI5MDMxMjkwXzA4Nw/screen-0.jpg?fakeurl=1&type=.jpg);
+    border-radius: 500px; 
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(13, 13, 13);
+}
+
+.li{
+ 
+    text-align: right;
+    position: relative;
+    right: 150px;
+    padding: 50px;
+  
+ 
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 191, 191);
+    font-size: 20px;
+    padding: 10PX;
+    font-size: medium;
+}
+a:hover{
+    color: beige;
+    
+}
+.lines{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    padding: 10px;
+}
+.lines h1{
+    font-size: 49px;
+    color: rgb(62, 72, 72);
+}
+.lines {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+     color: azure;
+    font-style: italic;
+}
+.lines p{
+    font-size: 30px;
+}
+#two{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(100deg, rgb(255, 255, 255), rgba(47, 40, 40, 0.75)),url(https://images.unsplash.com/photo-1613208884938-3a519c1e25c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBhZXN0aGV0aWN8ZW58MHx8MHx8&w=1000&q=80);
+}
+#two h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+#two p{
+    width: 40%;
+    text-align: left;
+    padding-top: 10px;
+    font-style: oblique;
+    position: relative;
+    top: 300px;
+    font-size: 20px;
+
+}
+#two img{
+    display: flex;
+    float:right;
+    width: 40%;
+    text-align:right;
+    justify-content: right;
+
+
+}
+#ee{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(280deg, rgba(140, 135, 135, 0.75), rgba(0, 0, 0, .75)), url(./what-programming-languages-work-best-for-games-and-game-development.jpeg);
+    background-repeat: 100%;
+    background-size: contain;
+}
+#ee h1{
+    color: blanchedalmond;
+}
+#ee a{
+    text-align: center;
+    position: relative;
+    top:300px;
+    bottom: 500px;
+    size: 50px;
+}
+
+#asso{
+ display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(280deg, rgba(140, 135, 135, 0.75), rgba(0, 0, 0, .75)), url(./contact_us_279387361-1024x325.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+.icon h1{
+    padding: 10px;
+    font-size: 15px;
+}
+.icon a{
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+}
+#three{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+   
+}
+
+.nme{
+    text-align: center;
+    padding: 10px;
+}
+.inputform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 250px;
+
+}
+.namefld{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap: 15px;
+    width: 50%;
+    position: relative;
+    
+   
+}
+.inputform input{
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+   
+}
+
+.msgport{
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+} 
+.lastbtn button{
+    border-radius: 1%;
+    height: 30px;
+    width: 10%;
+    border: 30px;
+    color: rgb(163, 168, 168);
+}
+
+@media only screen and (max-width: 410px) {
+   
+    .links{
+        text-align: center;
+        border-radius: 0%;
+        height: 80vh;
+    }  
+    .li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        text-align: right;
+        position: relative;
+        left: 150px;
+        padding: 0%;
+        font-style: italic;
+
+    }
+    .lines  {
+
+        padding: 0%;
+        
+      
+    }
+    #two{
+        height: 80vh;
+    }
+  
+    
+    #two p{
+      font-size: 10px;
+      padding: 0%;
+    }
+    #two img{
+       
+        position: relative;
+        top: 100px;
+    }
+     #ee{
+        height: 50vh;
+        padding: 0%;
+        margin: 0%;
+
+     }
+     #ee a{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        bottom: 100px;
+        padding: 0%;
+     }
+     
+     #asso{
+        height: 80vh;
+
+     }
+     #asso h1{
+        font-size: 20px;
+        color: bisque;
+
+     }
+     .icon a{
+        position: relative;
+        top: 0%;
+        bottom: 0%;
+        display: flex;
+        flex-direction: row;
+     }
+     #asso a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+        padding: 0%;
+        
+     
+     }
+     #three{
+        height: 80vh;
+        padding: 0%;
+     }
+     .namefld{
+        width: 100%;
+    }
+    .inputform input{
+        width: 50%;
+        padding: 0px;
+    }
+    .msgport{
+        height: 70px;
+        padding: 0px;
+    }
+    .lastbtn button{
+        border-radius: 3%;
+        height: 30px;
+        width: 25%;
+        border: 20px;
+        color: rgb(163, 168, 168);
+        font-size: 10px;
+        position: relative;
+        top: 40px;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+   
+    .links{
+        text-align: center;
+        border-radius: 0%;
+        height: 80vh;
+    }  
+    .li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        text-align: right;
+        position: relative;
+        left: 150px;
+        padding: 0%;
+        font-style: italic;
+
+    }
+    .lines  {
+
+        padding: 0%;
+        
+      
+    }
+    #two{
+        height: 80vh;
+    }
+  
+    
+    #two p{
+      font-size: 10px;
+      padding: 0%;
+    }
+    #two img{
+       
+        position: relative;
+        top: 150px;
+    }
+     #ee{
+        height: 50vh;
+        padding: 0%;
+        margin: 0%;
+
+     }
+     #ee a{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        bottom: 100px;
+        padding: 0%;
+     }
+     
+     #asso{
+        height: 80vh;
+
+     }
+     #asso h1{
+        font-size: 20px;
+        color: bisque;
+
+     }
+     .icon a{
+        position: relative;
+        top: 0%;
+        bottom: 0%;
+        display: flex;
+        flex-direction: row;
+     }
+     #asso a{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+        
+     
+    }
+
+     
+     #three{
+        height: 80vh;
+        padding: 0%;
+     }
+     .namefld{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+    
+
+
+  
