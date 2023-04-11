@@ -1,0 +1,68 @@
+
+.whole{
+    height: 63vh;
+    width: 33vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    gap: 20px;
+    background-color: black;
+    border-radius: 40px;
+    position: relative;
+    left: 540px;
+    
+
+}
+#display{
+    width: 98%;
+    height: 90px;
+    background-color: black;
+    border-radius: 40px;
+    color: #ffff;
+    font-size: larger;
+    display: flex;
+    flex-direction:column-reverse;
+    text-align: right;
+    border-color: black;
+    border-width: 0px;
+    border: none;
+
+
+}
+
+button{
+    height: 45px;
+    width: 22%;
+    gap: 50%;
+    border-radius: 50px;
+    background-color:dimgray;
+}
+.first{
+  width:220px ;  
+}
+.a{
+    background-color: #ccc;
+}
+
+.f{
+    background-color: #FF9500;
+}
+
+.second{
+    width:220px ;  
+}
+.third{
+    width:220px ;  
+}
+.fourth{
+    width:220px ;  
+}
+.fifth{
+    width:220px ;  
+}
+
+.o{
+    width: 48%;
+}

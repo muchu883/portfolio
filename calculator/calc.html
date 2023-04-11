@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="clc.css">
+</head>
+<body>
+    <div class="whole">
+    <input id="display" type="0">
+    <div class="first">
+        <button  id="al" class="a" onclick="clearscreen()">AC</button>
+        <button class="a" onclick="btnclk('+/-')">+/-</button>
+        <button class="a" onclick="btnclk('%')">%</button>
+        <button class="f"  onclick="btnclk('/')">/</button>
+    </div>
+    <div class="second">
+        <button onclick="btnclk(7)">7</button>
+        <button onclick="btnclk(8)">8</button>
+        <button onclick="btnclk(9)">9</button>
+        <button class="f" onclick="btnclk('*')">*</button>
+    </div>
+    <div class="third">
+        <button onclick="btnclk(4)">4</button>
+        <button onclick="btnclk(5)">5</button>
+        <button onclick="btnclk(6)">6</button>
+        <button class="f" onclick="btnclk('-')">-</button>
+    </div>
+    <div class="fourth">
+        <button onclick="btnclk(1)">1</button>
+        <button onclick="btnclk(2)">2</button>
+        <button onclick="btnclk(3)">3</button>
+        <button class="f" onclick="btnclk('+')">+</button>
+    </div>
+    <div class="fifth">
+        <button class="o" onclick="btnclk(0)">0</button>
+        <button onclick="btnclk('.')">.</button>
+        <button class="f" onclick="equal()">=</button>
+    </div>
+</div>
+<script>
+    
+ function btnclk(number) {
+    document.getElementById("display").value+=number;
+
+ }
+ function clearscreen() {
+  document.getElementById("display").value="";
+ }
+ function equal(){
+   var text= document.getElementById('display').value;
+   var result=eval(text);
+   document.getElementById('display').value=result;
+ }
+
+</script>
+
+
+    
+</body>
+</html>
