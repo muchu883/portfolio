@@ -1,0 +1,35 @@
+body{
+    background-image:url(https://i.pinimg.com/564x/5e/41/26/5e412617240e2564ed8e9b9b2ba1d491--white-white-snow-white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ad{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding: 20px;  
+}
+span{
+    box-sizing: border-box;
+    text-align: center;   
+}
+button{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+.clr {
+    background-color: rgb(107, 110, 110);
+    width: 180px;
+    height: 220px;
+    position: relative;
+    left:100px ;
+}
+.clr button{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
